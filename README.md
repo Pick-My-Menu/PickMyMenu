@@ -7,6 +7,11 @@
 <h3>AI를 활용하여 사용자가 선택한 조건에 맞는 점심/저녁 메뉴를 추천해주는 웹 애플리케이션</h3>
 
 - **배포 링크** : [PickMyMenu](https://hhjnn92.synology.me:7061)
+<br>
+
+- **PickMyMenu_Back GitHub** : [PickMyMenu_Back.git](https://github.com/Pick-My-Menu/PickMyMenu_Back)
+- **PickMyMenu_Front GitHub** : [PickMyMenu_Front.git](https://github.com/Pick-My-Menu/PickMyMenu_Front)
+- **PickMyMenu_Python GitHub** : [PickMyMenu_Python.git](https://github.com/Pick-My-Menu/PickMyMenu_Python)
 
 <br>
 
@@ -15,7 +20,7 @@
 
 |  이름  |  김태수  |  차성환  |  최현우  |
 |--------|--------|--------|--------|
-| 깃허브 | [taisooqq](https://github.com/taisooqq) | [zhffk0379](https://github.com/zhffk0379) | [Cnowcow](https://github.com/Cnowcow) |
+| GitHub | [taisooqq](https://github.com/taisooqq) | [zhffk0379](https://github.com/zhffk0379) | [Cnowcow](https://github.com/Cnowcow) |
 
 <br>
 
