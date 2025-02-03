@@ -31,6 +31,8 @@ Java / Python / React / Spring Boot / Spring Data JPA / Spring Security / Gradle
 
 ## 🧑‍💻 아키텍쳐
 
+![아키텍쳐](https://github.com/user-attachments/assets/cfcce480-364f-4285-a218-b431a62335ca)
+
 <br>
 
 ## 🔗 ERD
