@@ -1,0 +1,53 @@
+
+.recommendation-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: transform 0.3s ease;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 0 10px;
+  height: 200px;
+  text-align: center;
+  width: 100%; /* 버튼이 꽉 차도록 설정 */
+}
+
+.recommendation-link:hover {
+  transform: scale(1.05);
+}
+
+/* 모바일 크기 */
+@media (max-width: 768px) {
+  .recommendation-link {
+    font-size: 1.8rem;
+    padding: 15px;
+    min-height: 150px;
+  }
+}
+
+
+
+
+/* 태블릿 크기 */
+@media (max-width: 1024px) {
+  .recommendation-link {
+    font-size: 3rem;
+    padding: 40px;
+    min-height: 250px;
+  }
+}
+
+/* 모바일 크기 */
+@media (max-width: 768px) {
+  .recommendation-link {
+    font-size: 2rem;
+    padding: 30px;
+    min-height: 200px;
+  }
+}

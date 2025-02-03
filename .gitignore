@@ -1,0 +1,4 @@
+.idea
+PickMyMenu-Back/src/main/resources/application.yml
+PickMyMenu-Front/.env
+PickMyMenu-Python/app/.env
