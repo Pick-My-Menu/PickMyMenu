@@ -24,14 +24,18 @@
 
 <br>
 
-## 🛠 기술 스택
-Java / Python / React / Spring Boot / Spring Data JPA / Spring Security / Gradle / RESTful API / FastAPI / BeautifulSoup (크롤링) / MySQL / Docker / GitHub Actions / CI/CD / Gemini API / KakaoMap API
+## 🛠 기술 스택  
+- **프론트엔드:** React, KakaoMap API  
+- **백엔드:** Java (Spring Boot), Python (FastAPI), Spring Security  
+- **DB & 배포:** MySQL, Docker, GitHub Actions, Synology NAS  
+- **AI & 크롤링:** Gemini API, BeautifulSoup  
 
 <br>
 
-## 🧑‍💻 아키텍쳐
+## 🧑‍💻 아키텍처
 
-![아키텍쳐](https://github.com/user-attachments/assets/cfcce480-364f-4285-a218-b431a62335ca)
+
+![아키텍처](https://github.com/user-attachments/assets/cfcce480-364f-4285-a218-b431a62335ca)
 
 <br>
 
@@ -72,5 +76,47 @@ Java / Python / React / Spring Boot / Spring Data JPA / Spring Security / Gradle
 - GitHub에 새로운 코드가 push되면 이를 감지하여 배포 자동화 시스템 구축
 
 - 크롤링된 데이터를 필터링하고 정제하여 Gemini 모델에 전달하고, <br> AI 기반으로 추가 필터링 후 클라이언트에 반환하는 기능 개발
+
+### 7. AI 가 추천해준 메뉴와 현재위치를 확인하고 카카오맵을 활용하여 지도에 마커를 찍어주는기능
+- 카카오지도 API 를 활용해 현재위치좌표와 메뉴를 이용해서 현재위치근방 의 해당메뉴 판매음식점을 보여줌
+  
+- 카카오APi 의 위치기반검색에는 이미지가 포함되지않아 크롤링으로 이미지를 긁어와서 페이지에 넣음
+
+### 8. 선택된 메뉴, 선택지 데이터를 가공하여 랭킹에 반영함
+- 내가 선택한 선택지와 선택한 메뉴데이터를 가공하여 선택된 횟수에따라 순위를매기고 표를 보여줌
+
+### 9. 회원가입 및 로그인 기능 구현
+- 이메일과 비밀번호를 이용한 회원가입 기능 구현
+  
+- 회원가입 시 비밀번호는 Bcrypt를 이용해 암호화하여 저장
+  
+- SpringSecurity를 이용한 로그인 인증 및 JWT 토큰 발급
+  
+- JWT를 활용한 인증 및 인가 처리, 토큰 만료시 재로그인 요구
+
+### 9. 회원정보 수정 기능 구현
+- 사용자가 본인의 회원정보를 수정할 수 있도록 API 구현
+
+- 새 비밀번호 변경 시 기존 비밀번호 검증 후 변경 가능하도록 처리
+
+- 전화번호 변경 시 기존 전화번호는 사용할 수 없도록 제한
+
+- JWT 토큰을 활용하여 현재 로그인된 사용자 정보 기반으로 변경 가능
+
+### 10. 회원탈퇴 기능 구현
+- 회원탈퇴 요청 시 비밀번호 확인 절차 진행
+
+- 비밀번호가 일치할 경우 DB에서 해당 사용자 정보 삭제
+
+- 탈퇴 완료 후 JWT토큰 삭제 및 세션 종료 처리
+
+- 회원탈퇴 완료 메시지 표시 및 홈페이지로 리디렉션 기능 구현
+
+### 11. 쿠키 기반 인증 관리
+- 로컬스토리지 대신 HttpOnly 쿠키를 이용하여 JWT저장
+
+- 보안 강화를 위해 클라이언트 측에서 토큰 접근 불가능하도록 설정
+
+- 쿠키를 이용하여 자동 로그인 기능 구현 및 만료 시 재로그인 요구
 
 <br>
