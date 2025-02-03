@@ -34,8 +34,7 @@
 
 ## 🧑‍💻 아키텍처
 
-
-![아키텍처](https://github.com/user-attachments/assets/cfcce480-364f-4285-a218-b431a62335ca)
+![아키텍처](https://github.com/user-attachments/assets/30bcfe63-6fd3-4724-9c79-ebfedeba780e)
 
 <br>
 
